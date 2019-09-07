@@ -60,10 +60,10 @@ public class GenericCamera : MonoBehaviour
             if (_cameraSize > _camera.orthographicSize)
             {
                 ZoomOut(_cameraSize);
-                CameraMove();
+                //CameraMove();
             }
-            else
-                _zoomPosition = transform.position;
+            //else
+                //_zoomPosition = transform.position;
         }
     }
 
@@ -140,19 +140,20 @@ public class GenericCamera : MonoBehaviour
 
     private void ZoomOut(float zoom)
     {
+        
+        AutoCameraSize(_camera);
+
         if (_cameraSize - _camera.orthographicSize > resetMargin)
         {
             
-            CenterCamera();
+           // CenterCamera();
             _camera.orthographicSize = Vector3.Lerp(new Vector3(_camera.orthographicSize, 0, 0),
                 new Vector3(zoom, 0, 0), Time.deltaTime * zoomSpeed).x;
-            AutoCameraSize(_camera);
         }
         else
         {
             SetZoom(_cameraSize);
-            CenterCamera();
-            AutoCameraSize(_camera);
+           // CenterCamera();
         }
 
        
