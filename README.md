@@ -16,5 +16,5 @@ Version 1.0 :
 
 - 1 Create a Camera in the scene and attach the Generic Camera to it
 - 2 Create a Collider 2D to use it as the Camera Region, Recomanded to turn it into a Trigger. 
-- 3 Tweak you Camera parameteres, such as Movement Speed, Zooming Speed , Offset, Camera Minimum Size (Max Zoom).
+- 3 Tweak you Camera parameteres, such as Movement Speed, Zooming Speed , Offset, Camera Minimum Size.
 
