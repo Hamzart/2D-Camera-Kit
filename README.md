@@ -14,7 +14,7 @@ Version 1.0 :
 
 # How to use?
 
-1- Create a Camera in the scene and attach the Generic Camera to it
-2- Create a Collider2D, you can turn it to Trigger if you have other Colliders in your scene, to use it as the Camera Region
-3- Tweak you Camera parameteres, such as Movement Speed, Zooming Speed , Offset, Camera Minimum Size (Max Zoom).
+- 1 Create a Camera in the scene and attach the Generic Camera to it
+- 2 Create a Collider2D, you can turn it to Trigger if you have other Colliders in your scene, to use it as the Camera Region
+- 3 Tweak you Camera parameteres, such as Movement Speed, Zooming Speed , Offset, Camera Minimum Size (Max Zoom).
 
