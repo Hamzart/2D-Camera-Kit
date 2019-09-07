@@ -2,7 +2,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(Camera))]
 [DisallowMultipleComponent]
-[AddComponentMenu("2DCameraKit/Simple")]
+[AddComponentMenu("2DCameraKit/GenericCamera")]
 public class GenericCamera : MonoBehaviour
 {
     [Header("Camera Movement Behavior")]
