@@ -6,8 +6,8 @@ Unity 2D Camera Script for Point and Click, Side scrolling, Platformer, Top down
 
 Version 1.0 :
 
-- Following Mouse pointer.
-- Following an Onject in the Scene such as a Player Character
+- Follow Mouse pointer.
+- Follow an Onject in the Scene such as a Player Character
 - Ofsset margin to make the camera Follow the target with an offset
 - Zoom in/out
 - Free Roaming Camera or Bound to region to limit the camera roaming space.
